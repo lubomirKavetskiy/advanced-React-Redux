@@ -1,7 +1,7 @@
 // it will execute during every action
 // it's myAsyncMiddleware
 export default ({ dispatch }) => next => action => {
-  debugger;
+  //debugger;
   // A)
   if (!action.payload || !action.payload.then) {
     // next - every time it's next middleware  const store = createStore(reducers, initialState, applyMiddleware(firstMiddleware, secondMiddleware, ..., lastMiddleware));
